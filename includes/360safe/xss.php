@@ -2,10 +2,10 @@
 /*
  * @Author: yihua
  * @Date: 2025-01-04 17:32:11
- * @LastEditTime: 2025-01-05 18:15:13
+ * @LastEditTime: 2025-01-11 13:34:11
  * @LastEditors: yihua
  * @Description: 
- * @FilePath: \ccproxy_end\includes\360safe\xss.php
+ * @FilePath: \undefinedc:\Users\liuqiang\Desktop\ccp\ccproxy_kami\includes\360safe\xss.php
  * 💊物物而不物于物，念念而不念于念🍁
  * Copyright (c) 2025 by yihua, All Rights Reserved. 
  */
@@ -28,7 +28,7 @@ declare(strict_types=1);
  * 如需维护多个白名单路径，可将它们加入该数组  
  * 例如：$whitelistedPaths = ['/sub_admin', '/api/white_list'];  
  */
-$whitelistedPaths = ['/sub_admin', '/api/cpproxy.php'];
+$whitelistedPaths = ['/sub_admin', '/api/cpproxy.php','/'];
 
 /**  
  * 判断当前请求是否命中白名单，如果命中则跳过后续检测  
