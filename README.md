@@ -85,7 +85,7 @@
 
 #### 捐赠码，开源不易多多支持:call_me_hand:
 
-![](http://download.vhxkx.cn//typeraimgs/微信图片_20221022184915.jpg)
+![](/docs/style/img/docs/style/img/226db64b57a7571221e61ad015b7d2c.png)
 
-![微信支付](http://download.vhxkx.cn//typeraimgs/微信图片_20221022184548.jpg)
+![微信支付](/docs/style/img/docs/style/img/226db64b57a7571221e61ad015b7d2c.png)
 ```
