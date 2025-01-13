@@ -78,7 +78,8 @@ switch ($act) {
                         "code" => "1",
                         "msg" => "添加成功"
                     ];
-
+                    $cache = Cache::getInstance();
+                    $cache->clear();
                     // $cxserver=$DB->selectRow("SELECT applist FROM server_list WHERE ip='".addslashes($server)."'");
 
                     // $sqlserver="UPDATE server_list set applist='".((empty($cxserver['applist'])?"":$cxserver['applist'].",").$appcode)."' where ip='".addslashes(str_replace(array("<", ">", "/"), array("&lt;", "&gt;", ""), $server))."' ";
